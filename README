@@ -1,0 +1,5 @@
+This Arduino sketch allows easy interpretation of the Data/Clock pin values of a KY040 rotary encoder
+and translates them into practically usable CW and CCW turns.
+One needs to sample the rotation status in a function attached to 2 CHANGE interrupts
+on the Data and Clock pins of the encoder.
+CCW turns are represented by an int value of -1, CW turns by 1, no movement by 0.
