@@ -8,7 +8,7 @@ CCW turns are represented by an int value of -1, CW turns by 1, no movement by 0
 
 Because this is not a very reliable way to process the turn data, as the polling will be easily delayed
 by the other code running in the Arduino sketch main loop, a better way is to use interrupt pins.
-Using interrupts will guarantee that no changes in the output pins are mised.
+Using interrupts will guarantee that no changes in the output pins are missed.
 
 Check out the Library version of this sketch by the same author to see an example of interrupt usage.
 
